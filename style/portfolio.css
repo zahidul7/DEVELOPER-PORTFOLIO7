@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: rgb(112, 158, 199);
+    padding: 18px 35px ;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    color:#FD6E0A;
+    height: 64px ;
+    border-radius: 5px;
+}
+.header{
+    background: #fefcfb;
+    background-image: url('/header_bg.png');
+    background-image: url('/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+ /* banner styles */
+ .banner{
+    margin: 0 200px;
+    align-items: center;
+    display: flex;
+ }
+ .banner-title{
+    font-weight: 700;
+    font-size: 85px;
+
+ }
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+
+}
+.banner-description{
+    color: burlywood;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section style  */
+.about{
+    margin-top: 130px;
+
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+.section-description{
+    color: rgb(89, 208, 208);
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.what-i-do{
+    margin-top: 130px;
+}
+.skill{
+    background: #fefcfb;
+    box-shadow: 0px 50px rgb(0, 0,0, 0.03);
+    border-radius: 5px;
+}
+.skill-container{
+    display: flex;
+    gap: 10px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+    color: aquamarine;
+}
